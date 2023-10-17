@@ -25,7 +25,10 @@
 
 ## Getting started
 
-// TODO
+```py
+source ./bin/activate
+python GenerativeRecipesMicroservice/app.py
+```
 
 ## 👀 Examples
 
