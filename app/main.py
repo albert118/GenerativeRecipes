@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from .api import images, test
+from .routers import images, test
 
 app = FastAPI()
 
