@@ -1,4 +1,4 @@
-# Generative Recipes
+# Generative Recipe Images
 
 <p align="center">
     <a href="https://github.com/albert118/GenerativeRecipes/blob/master/LICENSE">

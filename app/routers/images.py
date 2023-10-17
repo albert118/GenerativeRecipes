@@ -4,6 +4,7 @@ from fastapi import APIRouter
 router = APIRouter(
     prefix="/images",
     responses={404: {"description": "Not found"}},
+    tags=['images']
 )
 
 
