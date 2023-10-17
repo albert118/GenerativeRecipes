@@ -1,13 +1,14 @@
+class FakeModel:
+    def __init__(self):
+        pass
+
+    def generate(self, prompt: str):
+        return f'generated - {prompt}!'
+
+
 class ModelProvider:
     def __init__(self):
-        self._load_model()
-        self._load_config()
+        self.model = FakeModel()
 
-    def do_thing(self) -> str:
-        return 'did thing'
-
-    def _load_model(self):
-        pass
-
-    def _load_config(self):
-        pass
+    def get_model(self):
+        return self.model

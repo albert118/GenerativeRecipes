@@ -6,5 +6,5 @@ router = APIRouter(
 )
 
 @router.get('/ping')
-def read_root():
+def ping_pong():
     return 'pong'
