@@ -30,7 +30,7 @@ source ./bin/activate
 uvicorn app.main:app --reload
 ```
 
-Checkout the OpenAPI docs at [http://127.0.0.1:8000/docs] or the Redoc at [http://127.0.0.1:8000/redoc].
+Checkout the OpenAPI docs at [http://127.0.0.1:8000/docs].
 
 ## 👀 Examples
 

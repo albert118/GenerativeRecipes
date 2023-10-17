@@ -21,8 +21,10 @@ app = FastAPI(
     },
     license_info={
         'name': 'MIT 📜',
+        "identifier": "MIT",
         'url': 'https://github.com/albert118/GenerativeRecipes/blob/master/LICENSE'
-    }
+    },
+    redoc_url=None
 )
 
 app.include_router(images.router)
