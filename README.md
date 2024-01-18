@@ -1,3 +1,5 @@
+# MOVED TO [InMeal](https://github.com/albert118/InMeal)
+
 # Generative Recipe Images
 
 <p align="center">
